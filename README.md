@@ -1,4 +1,8 @@
-# php-yahei-tz
-雅黑探针 Docker 部署
+# PHP 雅黑探针
 
-原作者 ： http://www.yahei.net 
+探针来自 ： http://www.yahei.net 
+
+## Docker启动
+```
+docker run -d --name tz -p 80:80 php-yahei-tz
+```
